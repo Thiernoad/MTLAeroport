@@ -1,0 +1,211 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image:  url("../images/avion.jpg");
+    
+}
+p{
+    color: aliceblue;
+}
+#navbarID{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+
+}
+.title {
+    color: #000;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+}
+.lead{
+     color: black;
+     font-weight: 600;
+     
+}
+
+.intro {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+
+/******** HEADER ********/
+header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    padding: 10px 0 5px;
+    margin-bottom: 50px;
+}
+#title-header {
+    font-size: 2.3rem;
+    font-weight: 900;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+/******** SECTION ********/
+.flex-container {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1000px;
+   
+  
+}
+
+.section {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+input[type="text"]{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    
+    color: rgba(0, 0, 0, 0.9);;
+    cursor:default;
+}
+
+
+/******** SIDEBAR ********/
+/*
+#sidebar {
+    width: 100px;
+
+
+}
+#sidebar li{
+
+    text-align: right;
+    background-color: #1E90FF;
+    
+}
+*/
+
+/*
+#sidebar a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px 5px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-shadow: 3px 1px 0 gold;
+}
+
+#sidebar a:hover {
+    color: black;
+    transition: .2s;
+    font-weight: 600;
+    text-shadow: 3px 1px 0 white;
+    background-color: gold;
+
+}
+
+#image{
+    background-image: url("avion.jpg");
+}
+*/
+
+/******** GROUPE 4 ********/
+
+#groupe4{
+    color: white;
+    margin: 200px auto 0;
+    padding: 10px;
+    display: flex;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+
+}
+#groupe4 div {
+    margin: 5px;
+    color: white;
+}
+
+#prof{
+    color: white;
+    margin: 15px auto 0;
+    padding: 10px;
+    display: flex;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+
+}
+/******** VOLS ********/
+#vols {
+    width: 100%;
+    text-align: center;
+    
+}
+#vols table{
+
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+#vols td{
+    font-size: 12px;
+    padding: 8px 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#vols th{
+    padding: 10px 2px ;
+}
+
+.time{
+    font-size: 16px!important;
+    font-weight: 600!important;
+}
+
+.numVol{
+    font-size: 12px!important;
+    font-weight: 700!important;
+    
+}
+
+
+
+/******** @MEDIA ********/
+@media only screen and (max-width: 768px) {
+/*
+    .flex-container {
+        margin: 0 auto;
+        max-width: 1000px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+  */  
+    #sidebar {
+        width: 100%;
+        text-align: center;
+    }
+    #sidebar li{
+
+        text-align: center;
+    }
+  
+   
+
+}
